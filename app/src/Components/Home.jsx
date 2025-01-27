@@ -1,18 +1,19 @@
 import Skills from './Skills'
-import Projects from './Projects'
+import Projects from './project/Projects'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import Contact from './Contact';
 const Home = () => {
   return (
    <>
 
-   <div className='flex flex-col justify-center items-center my-48'>
+   <div className='flex flex-col justify-center items-center py-44 bg-[#121e27]'>
    
-     <div className='text-[3.5rem] font-normal text-left leading-20 tracking-tight mb-16'> Hi, I’m Tanishka | <span className='border-b-8 border-[#e74c3c]'>Software</span>
+     <div className='text-[3.5rem] font-normal text-left leading-20 tracking-wide'> Hi, I’m Tanishka | <span className='bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500 text-5xl font-black'>Software</span>
       <br /> 
-      <span className='border-b-8 border-[#e74c3c]'> Engineer</span>
+      <span className='bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500 text-5xl font-black'> Engineer</span>
  
     <div className='text-[#ed6955] flex gap-3 text-3xl my-10 cursor-pointer'>
       <a href='https://github.com/Billi007' className='hover:text-gray-400'><FaGithub /></a>
@@ -28,7 +29,7 @@ const Home = () => {
     </div>
       <Skills/>
      <Projects/>
- 
+     <Contact/>
    </>
   )
 }
