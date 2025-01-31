@@ -2,10 +2,10 @@ import React from 'react'
 
 const Netflix_project = () => {
   return (
-    <div className='text-black w-[700px] py-10 space-y-3 flex flex-col justify-center m-auto text-left'>
+    <div className='text-black md:max-w-4xl px-5 max-w-2xl py-10 space-y-3 flex flex-col justify-center m-auto text-left'>
     <h1 className='font-bold text-3xl'>Netflix app</h1>
     <p className='text-xs text-gray-700'>2 minute read</p>
-    <p className='text-slate-800'>Developed a feature-rich real-time chat application enabling users send/receive instant messages.
+    <p className='text-slate-800 text-sm md:text-[17px]'>Developed a feature-rich real-time chat application enabling users send/receive instant messages.
 The app ensures seamless communication through a responsive and user-friendly with modern styling
 interface.
 User Authentication: Implemented secure login and registration using JWT authentication with cookies.</p>
@@ -23,15 +23,22 @@ User Authentication: Implemented secure login and registration using JWT authent
   <ul  className='text-[13px] my-2' >
     <li>React.js</li>
     <li>Firebase</li>
-    <li>Redux</li>
     <li>TailwindCSS</li>
+    <li>Redux</li>
   </ul>
+  </div>
+
+  <div>
+    <h1 className='font-bold text-lg'>Code</h1>
+    <ul className=' my-1'>
+      <li><a className='text-[#ed6955] font-bold text-xs' href="https://github.com/Billi007/MERN-Chat-App">Github</a></li>
+    </ul>
   </div>
 
   <div>
   <h2  className='font-bold text-lg'>Live</h2>
    <ul  className='text-[15px] my-2'>
-    <li className='text-[#f6654f] font-semibold cursor-pointer'>Site</li>
+    <li className='text-[#f6654f] font-bold cursor-pointer text-xs'>Site</li>
    </ul>
   </div>
 </div>
@@ -51,7 +58,7 @@ User Authentication: Implemented secure login and registration using JWT authent
 </div>
 
   <h1 className='font-bold text-2xl'>Web Stack and Explanation</h1>
-  <p className='text-slate-800 text-[14.7px] pb-10'>
+  <p className='text-slate-800 text-[14px] md:text-[14.7px] pb-10'>
 Built the project using Next.js because of its powerful server-side rendering and dynamic routing. The backend is fully serverless, it handles automated magic link emails 
 (Postmark), auithentication using JWT and Passport, Airtable CRM, and connects to the propietary credit-score and property-estimation 
 microservices (Elastic Beanstalk / Google Maps / TensorFlow).
