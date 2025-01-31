@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <>
     <div className='bg-white '>
-    <h1 className='relative text-3xl  p-5 right-[29%] text-black font-extrabold'>My Skills</h1>
+    <h1 className='relative text-3xl  p-8 right-[29%] text-black font-extrabold'>My Skills</h1>
        <div className='flex flex-col md:flex-row gap-16 justify-center items-center py-10'>
 
        <div>

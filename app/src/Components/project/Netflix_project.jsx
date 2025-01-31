@@ -31,7 +31,7 @@ User Authentication: Implemented secure login and registration using JWT authent
   <div>
     <h1 className='font-bold text-lg'>Code</h1>
     <ul className=' my-1'>
-      <li><a className='text-[#ed6955] font-bold text-xs' href="https://github.com/Billi007/MERN-Chat-App">Github</a></li>
+      <li><a className='text-[#ed6955] font-bold text-xs' href="https://github.com/Billi007/Netflix-app">Github</a></li>
     </ul>
   </div>
 
