@@ -57,15 +57,40 @@ User Authentication: Implemented secure login and registration using JWT authent
   alt="img" />
 </div>
 
+<div className='text-slate-800 text-[14px] md:text-[14.7px] pb-10 space-y-5'>
   <h1 className='font-bold text-2xl'>Web Stack and Explanation</h1>
-  <p className='text-slate-800 text-[14px] md:text-[14.7px] pb-10'>
-Built the project using Next.js because of its powerful server-side rendering and dynamic routing. The backend is fully serverless, it handles automated magic link emails 
-(Postmark), auithentication using JWT and Passport, Airtable CRM, and connects to the propietary credit-score and property-estimation 
-microservices (Elastic Beanstalk / Google Maps / TensorFlow).
-For the databse I used PostgreSQL and Prisma ORM. I generated the GraphQL schema using Nexus.
-To ensure code/platform stability, I Implemented a CI/CD pipeline with Jest for unit testing, 
-Cypress for End to End, Typescript type-checking, database migration, code linting and preview deploys. Finally, I deployed the site to Vercel
-</p>
+  <ol className='text-sm'>
+ <h1 className='font-bold py-2'>Technologies Used</h1>
+    <li><span className='font-extrabold'>Frontend: </span>React.js, Tailwind CSS, Daisy UI</li>
+    <li><span className='font-extrabold'>Backend:  </span>Node.js, Express.js</li>
+    <li><span className='font-extrabold'>Database: </span>MongoDB</li>
+    <li><span className='font-extrabold'>Real-Time Communication: </span>Socket.IO</li>
+  </ol>
+
+
+<h1 className='font-bold text-lg'>Project Description</h1>
+<p>Built a fully functional real-time chat application that allows users to communicate instantly.
+   The app features a responsive and <span className='font-bold'>modern UI</span> powered by <span className='font-bold'> Tailwind CSS and Daisy UI</span>, ensuring a seamless 
+   experience across devices. Real-time messaging is enabled using <span className='font-bold'>Socket.IO</span>, providing instant message delivery and updates.</p>
+
+<h1 className='font-bold text-lg'>Key Features</h1>
+<ol className='text-sm'>
+  <li><span className='font-extrabold'>Real-Time Messaging: </span>Instant message delivery and updates using Socket.IO.</li>
+  <li><span className='font-extrabold'>Responsive Design: </span>A clean and modern UI built with Tailwind CSS and Daisy UI.</li>
+  <li><span className='font-extrabold'>User Authentication: </span>Secure user authentication and authorization.</li>
+  <li><span className='font-extrabold'>Database Integration: </span>Messages and user data are stored and managed using MongoDB.</li>
+  <li><span className='font-extrabold'>Scalable Backend: </span>Built with Node.js and Express.js for efficient handling of real-time data.</li>
+</ol>
+ 
+
+<h1 className='font-bold text-lg'>What I Learned</h1>
+<ul>
+  <li>Gained hands-on experience with real-time communication using Socket.IO.</li>
+  <li>Improved my skills in building responsive UIs with Tailwind CSS and Daisy UI.</li>
+  <li>Enhanced my understanding of full-stack development with the MERN stack</li>
+</ul>
+
+</div>
     </div>
   )
 }

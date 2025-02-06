@@ -21,8 +21,8 @@ const Home = () => {
      <a href='https://x.com/Tanisha1175' className='hover:text-gray-400'> <FaTwitter /></a>
      <a href='mailto:guptatanishka2008@gmail.com' className='hover:text-gray-400'> <MdEmail /></a>
      </div>
-    <p className='text-sm md:text-lg max-w-sm text-left font-thin  tracking-normal'>I love exploring and creating 🚀 I’m a lifelong learner 🎓 
-    and I might have a thing for traditional Neapolitan Pizza 🍕</p>
+    <p className='text-sm md:text-lg max-w-sm text-left font-thin  tracking-normal'>I love exploring and creating 🚀 I’m a lifelong learner 🎓 and a good cook 🍕
+  </p>
       </div>
 
 

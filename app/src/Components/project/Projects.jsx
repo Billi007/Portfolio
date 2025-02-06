@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 const Projects = () => {
   return (
     <>
-    <div className='text-black text-left flex flex-col md:flex-row justify-evenly md:mx-0 mx-5 mb-20 md:mb-0 items-start md:items-center pt-10'>
+    <div className='text-black text-left flex flex-col md:flex-row justify-evenly md:mx-0 mx-5 mb-20 md:mb-0 items-center pt-10'>
      
      <div className="w-[400px] ">
      <h2 className='text-black font-extrabold text-3xl'>Projects</h2>
@@ -51,7 +51,7 @@ User Authentication: Implemented secure login and registration using JWT authent
 
 
 
-     <div className='text-black text-left flex flex-col md:flex-row  mb-20 justify-evenly md:mx-0 mx-5 items-start md:items-center pt-10'>
+     <div className='text-black text-left flex flex-col md:flex-row  mb-20 justify-evenly md:mx-0 mx-5 items-center pt-10'>
      
      <div className="w-[400px] ">
       <p className='font-normal text-xs my-5'>FULL STACK DEVELOPER / TECH LEAD</p>
