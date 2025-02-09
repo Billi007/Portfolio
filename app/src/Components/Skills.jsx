@@ -1,4 +1,4 @@
-import React from 'react'
+import img from '../../public/taishkapf.jpg'
 import { Link } from 'react-router-dom'
 
 const Skills = () => {
@@ -10,8 +10,8 @@ const Skills = () => {
 
        <div>
         <img 
-        className='rounded-xl w-[200px] '
-        src="https://images.pexels.com/photos/19065036/pexels-photo-19065036/free-photo-of-anis.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+        className='rounded-xl w-[200px] object-cover'
+        src={img} 
         alt="profile" />
        </div>
 
@@ -31,10 +31,10 @@ const Skills = () => {
 
           <div className=' text-slate-800 mt-5 space-y-3 flex flex-col items-start'>
           <h1 className='font-bold'>I love building stuff 📱</h1>
-          <p className='text-left text-sm md:text-lg leading-6'>I started playing with computers when I was 11 years-old. Since then
-             I have been tinkering with all sorts of technologies that in some way or
-              another led me to work on music, photography, sound engineering, electric engineering, automation,
-               video production, feature film post-production, VR games, and 3D sound.</p>
+          <p className='text-left text-sm md:text-[16px] leading-6'>Hey! I’m a frontend developer who loves turning ideas into reality. My tech journey began at 21,
+         and since then, I love building apps, love photography, cooking (food is my other passion), 
+         exploring new places, or diving into creative hobbies.I thrive on solving problems, learning new tech, 
+         and making things that matter. Coding with a cup of coffee is my greatest hobby ☕💻</p>
 
          <Link 
          to='/about'

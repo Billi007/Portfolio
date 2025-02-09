@@ -1,5 +1,5 @@
-//import {chat} from '../../public/chat_app.PNG'
-
+import chat from '../../../public/chat1.PNG'
+import netflix from '../../../public/net1.PNG'
 import { Link } from "react-router-dom"
 
 const Projects = () => {
@@ -11,11 +11,12 @@ const Projects = () => {
      <h2 className='text-black font-extrabold text-3xl'>Projects</h2>
       <p className='font-normal text-xs my-5'>FULL STACK DEVELOPER / TECH LEAD</p>
       
-      <h1 className='text-black font-extrabold text-2xl'>MERN Chat app</h1>
+      <h1 className='text-black font-extrabold text-2xl'>Real-Time Chat Application</h1>
       <div className='flex gap-1 text-[11px] my-5'>
       <button className='py-1 px-2 font-semibold bg-[#121e27] text-white'>Javascript</button>
         <button className='py-1 px-2 font-semibold bg-[#121e27] text-white'>MERN</button>
         <button className='py-1 px-2 font-semibold bg-[#121e27] text-white'>Socket.io</button>
+        <button className='py-1 px-2 font-semibold bg-[#121e27] text-white'>Redux</button>
         <button className='py-1 px-2 font-semibold bg-[#121e27] text-white'>TailwindCSS</button>
         <button className='py-1 px-2  font-semibold bg-[#121e27] text-white'>DaisyUI</button>
       </div>
@@ -37,9 +38,9 @@ User Authentication: Implemented secure login and registration using JWT authent
       <div>
      <Link to='/project/chat'>
      <img 
-      className="w-[300px] h-[300px] mt-10 md:mt-0 bg-cover rounded-3xl max-w-sm mx-auto shadow-none transition-shadow cursor-pointer
+      className="w-2xl h-72 mt-10 md:mt-0 bg-cover rounded-3xl max-w-sm mx-auto shadow-none transition-shadow cursor-pointer
        hover:shadow-xl hover:shadow-gray-600 ease-in-out hover:duration-300"
-      src='https://static1.anpoimages.com/wordpress/wp-content/uploads/2022/04/WhatsApp-generic-hero-app-interface.jpg' 
+      src={chat}
       alt="img" />
      </Link>
      </div>
@@ -65,10 +66,10 @@ User Authentication: Implemented secure login and registration using JWT authent
       </div>
 
        <div>
-        <p className="text-slate-800 ">Developed a feature-rich real-time chat application enabling users send/receive instant messages.
-The app ensures seamless communication through a responsive and user-friendly with modern styling
-interface.
-User Authentication: Implemented secure login and registration using JWT authentication with cookies.</p>
+        <p className="text-slate-800 ">Developed a Netflix-inspired streaming platform cone built with React for the frontend,
+       Firebase for authentication and database,TailwindCSS for styling,
+       and Redux for state management. The app replicates core features 
+       of Netflix, including user authentication, and a responsive UI.</p>
        </div>
 
       <button className="my-8 px-6 py-2 font-medium bg-[#e9614d] text-white w-fit transition-all duration-200
@@ -81,9 +82,9 @@ User Authentication: Implemented secure login and registration using JWT authent
       <div>
      <Link to='/project/netflix'>
      <img 
-      className="w-[300px] h-[300px] mt-10 md:mt-0 bg-cover rounded-3xl max-w-sm mx-auto shadow-none transition-shadow cursor-pointer
+      className="w-[400px] h-[300px] mt-10 md:mt-0 object-center rounded-3xl max-w-sm mx-auto shadow-none transition-shadow cursor-pointer
        hover:shadow-xl hover:shadow-gray-600 ease-in-out hover:duration-300"
-      src='https://static1.anpoimages.com/wordpress/wp-content/uploads/2022/04/WhatsApp-generic-hero-app-interface.jpg' 
+      src={netflix}
       alt="img" />
      </Link>
      </div>

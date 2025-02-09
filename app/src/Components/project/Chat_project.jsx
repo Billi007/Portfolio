@@ -1,5 +1,6 @@
 import img1 from '../../../public/signup_page.PNG'
 import img2 from '../../../public/chat.PNG'
+import img3 from '../../../public/login.PNG'
 const Chat_project = () => {
   return (
    <>
@@ -54,12 +55,12 @@ User Authentication: Implemented secure login and registration using JWT authent
       src={img1}
       alt="" />
       <img 
-       className='w-3xl h-[500px]'
+       className='w-3xl '
       src={img2}
       alt="" />
   <img 
   className='w-3xl'
-  src="https://static1.anpoimages.com/wordpress/wp-content/uploads/2022/04/WhatsApp-generic-hero-app-interface.jpg" 
+  src={img3}
   alt="img" />
 </div>
 

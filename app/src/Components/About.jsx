@@ -1,4 +1,4 @@
-
+import ResumeSection from './Resume_section';
 
 const About = () => {
   return (
@@ -6,7 +6,6 @@ const About = () => {
     <div className='md:max-w-4xl max-w-2xl p-10 my-5 text-left m-auto'>
       <div className='bg-white text-black space-y-4'>
       <h1 className='text-3xl md:text-5xl font-semibold'>I have always loved tech</h1>
-      <p className="text-sm font-semibold">Looking for my <span className='text-[#e74c3c] font-semibold'>CV</span>?</p>
       <h3 className="font-bold">My quick story</h3>
     
        <div className="text-[15px] space-y-4">
@@ -57,8 +56,13 @@ work, and the joy of learning something new every day. It’s not just a career 
 <p>If you’re looking for someone who’s passionate, self-driven, and always ready to learn, I’d love to chat. 
 Whether it’s about a project, a job opportunity, or just swapping stories about coding (or cooking), 
 feel free to reach out at [email] or connect with me on [LinkedIn/GitHub]. Let’s build something amazing together! </p>
-      
-       </div>
+</div>
+
+ <div>
+ <p className="text-sm font-semibold mb-10">Looking for my <span className='text-[#e74c3c] font-semibold'>CV</span>?</p>
+ <ResumeSection/>
+ </div>
+
       </div>
     </div>
     </>
