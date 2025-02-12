@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom'
 import { GiCoffeeCup } from "react-icons/gi";
 
 const Contact = () => {
