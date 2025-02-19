@@ -27,12 +27,12 @@ I spent hours watching videos,reading roadmaps, and figuring out where to begin.
 <p>From there, I dove into React for the frontend and Express.js for the backend, and I haven’t looked back since. 
 It’s been two years of learning, failing, and growing, and I’m proud of how far I’ve come. </p>
 
-<h1 className="font-bold text-lg">**As a Developer** </h1> 
+<h1 className="font-bold text-lg">As a Developer</h1> 
  <p>I specialize in the MERN stack (MongoDB, Express.js, React, Node.js) and build scalable web applications. 
 But more than that, I love the process of creating something from scratch and seeing it work. Whether it’s
  solving a tricky bug or building a feature that users love, coding gives me a sense of purpose and accomplishment.</p> <br />
 
-<h1 className="font-bold text-lg">**As a Person** </h1> 
+<h1 className="font-bold text-lg">As a Person</h1> 
 <p>If I had to describe myself in one word, it would be *curious*. I’m a perpetual learner, always eager to explore new technologies,
  tools, and ideas. My journey hasn’t been perfect—I’ve made plenty of mistakes along the way. I spent a whole year stuck in 
  “tutorial hell,” watching endless videos but never building anything on my own. I didn’t focus on fundamentals, skipped theory,
@@ -42,17 +42,17 @@ But more than that, I love the process of creating something from scratch and se
 Today, I’m confident in my abilities and proud of how far I’ve come. I’m proof that with curiosity, persistence,
  and a willingness to learn, you can achieve anything—even without a tech background.</p>  
 
-<h1 className="font-bold text-lg">**When I’m Not Coding**</h1>  
+<h1 className="font-bold text-lg">When I’m Not Coding</h1>  
 <p>You’ll probably find me in the kitchen, cooking up something delicious. Cooking is my happy place—it’s my way of 
 unwinding and creating something tangible (and tasty) after a day of debugging. Plus, it doesn’t require any human 
 involvement, which is a bonus for an introvert like me! </p>
 
-<h1 className="font-bold text-lg">**Why I Love Coding**</h1>  
+<h1 className="font-bold text-lg">Why I Love Coding</h1>  
 <p>Coding is definitely for me. I love the thrill of solving problems, the satisfaction of seeing my applications 
 work, and the joy of learning something new every day. It’s not just a career for me—it’s a passion
 . And while I’m still learning and growing, I’m excited about the possibilities ahead. </p>
 
-<h1 className="font-bold text-lg">**Let’s Connect!**</h1>  
+<h1 className="font-bold text-lg">Let’s Connect!</h1>  
 <p>If you’re looking for someone who’s passionate, self-driven, and always ready to learn, I’d love to chat. 
 Whether it’s about a project, a job opportunity, or just swapping stories about coding (or cooking), 
 feel free to reach out at [email] or connect with me on [LinkedIn/GitHub]. Let’s build something amazing together! </p>

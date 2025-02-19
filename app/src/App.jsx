@@ -1,21 +1,24 @@
 import './App.css'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import Home from './Components/Home'
-import About from './Components/About'
-import Projects from './Components/project/Projects'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
-import Contact from './Components/Contact'
-import Netflix_project from './Components/project/Netflix_project'
-import Chat_project from './Components/project/Chat_project'
+import {Suspense, lazy} from 'react'
+import Loading from './Components/Loading'
 
 function App() {
+ const Home = lazy(() => import('./Components/Home'));
+ const About = lazy(() => import('./Components/About'));
+ const Projects = lazy(() => import('./Components/project/Projects'));
+ const Netflix_project = lazy(() => import('./Components/project/Netflix_project'));
+ const Chat_project = lazy(() => import('./Components/project/Chat_project'));
+ const Contact = lazy(() => import('./Components/Contact'));
  
   return (
     <>
    <div className=' text-white'>
    <Navbar/>
   <BrowserRouter>
+  <Suspense fallback={<Loading/>}>
   <Routes>
   <Route path='/' element={<Home/>}/>
   <Route path='/about' element={<About/>}/>
@@ -24,6 +27,7 @@ function App() {
   <Route path='/project/chat' element={<Chat_project/>}/>
   <Route path='/contact' element={<Contact/>}/>
   </Routes>
+  </Suspense>
   </BrowserRouter>
   <Footer/>
    </div>
